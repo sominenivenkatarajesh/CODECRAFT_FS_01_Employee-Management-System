@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+}
+
+.navbar {
+    width: 100%;
+    background: #1e1e2f;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logout-btn {
+    color: #fff;
+    background: #e63946;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+.logout-btn:hover {
+    background: #d62828;
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.container h3 {
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    display: inline-block;
+    background: #1d3557;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: 0.2s;
+}
+.add-btn:hover {
+    background: #0f2a43;
+}
+
+.emp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.emp-table th {
+    background: #1d3557;
+    color: #fff;
+    padding: 12px;
+}
+
+.emp-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.emp-table tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+.emp-table tr:hover {
+    background: #eaeaea;
+}
+
+.edit, .delete {
+    padding: 6px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.edit {
+    background: #457b9d;
+}
+.edit:hover {
+    background: #33627d;
+}
+
+.delete {
+    background: #e63946;
+}
+.delete:hover {
+    background: #c92f3d;
+}
+
+.form-box {
+    width: 400px;
+    margin: 70px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1d3557;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.form-btn:hover {
+    background: #0f2a43;
+}
+
+.small-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.small-link a {
+    color: #1d3557;
+    text-decoration: none;
+}
+.small-link a:hover {
+    text-decoration: underline;
+}
+
+.msg {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background: #f8d7da;
+    color: #721c24;
+}
